@@ -12,7 +12,9 @@
       var dishArr = $scope.dishes.split(',');
       var msg = "";
       var cnt = 0;
+      // Iterate split array to check for empty
       for (var i=0;i<dishArr.length;i++) {
+        // Check if string is not empty
         if (dishArr[i]!=="") {
             cnt++;
         }
